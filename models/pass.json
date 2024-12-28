@@ -1,45 +1,35 @@
 {
-  "formatVersion": 1,
-  "passTypeIdentifier": "pass.com.techchallenge.nyu",
-  "teamIdentifier": "A3MC85T4RA",
-  "organizationName": "NYU Tech Challenge",
-  "description": "Discount Coupon",
-  "logoText": "NYU Tech",
-  "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(60, 0, 160)",
-  "storeCard": {
-    "headerFields": [
-      {
-        "key": "balance",
-        "label": "REMAINING USES",
-        "value": "10"
-      }
-    ],
-    "primaryFields": [
-      {
-        "key": "offer",
-        "label": "DISCOUNT",
-        "value": "20% OFF"
-      }
-    ],
-    "secondaryFields": [
-      {
-        "key": "expires",
-        "label": "EXPIRES",
-        "value": "12/31/2024"
-      }
-    ],
-    "auxiliaryFields": [
-      {
-        "key": "service",
-        "label": "SERVICE",
-        "value": "All Services"
-      }
-    ]
-  },
-  "barcode": {
-    "message": "123456789",
-    "format": "PKBarcodeFormatQR",
-    "messageEncoding": "iso-8859-1"
-  }
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.techchallenge.nyu",
+    "serialNumber": "1735333655935",
+    "teamIdentifier": "A3MC85T4RA",
+    "organizationName": "ELIZAR GROUP LLC",
+    "description": "Tech Challenge Discount Coupon",
+    "foregroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(60, 65, 76)",
+    "labelColor": "rgb(255, 255, 255)",
+    "coupon": {
+        "headerFields": [
+            {
+                "key": "expires",
+                "label": "EXPIRES",
+                "value": "",
+                "dateStyle": "PKDateStyleShort"
+            }
+        ],
+        "primaryFields": [
+            {
+                "key": "offer",
+                "label": "DISCOUNT",
+                "value": "215% OFF"
+            }
+        ],
+        "secondaryFields": [
+            {
+                "key": "service",
+                "label": "SERVICE",
+                "value": "Tech Support"
+            }
+        ]
+    }
 }
