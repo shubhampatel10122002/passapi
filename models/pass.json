@@ -3,11 +3,18 @@
     "passTypeIdentifier": "pass.com.techchallenge.nyu",
     "serialNumber": "1735333655935",
     "teamIdentifier": "A3MC85T4RA",
-    "organizationName": "ELIZAR GROUP LLC",
+    "organizationName": "Shubham Patel",
     "description": "Tech Challenge Discount Coupon",
     "foregroundColor": "rgb(255, 255, 255)",
-    "backgroundColor": "rgb(60, 65, 76)",
-    "labelColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(41, 128, 185)",
+    "labelColor": "rgb(236, 240, 241)",
+    "barcode": {
+        "message": "",
+        "format": "PKBarcodeFormatQR",
+        "messageEncoding": "iso-8859-1",
+        "altText": "Scan to redeem discount"
+    },
+    "suppressStripShine": true,
     "coupon": {
         "headerFields": [
             {
@@ -21,7 +28,7 @@
             {
                 "key": "offer",
                 "label": "DISCOUNT",
-                "value": "215% OFF"
+                "value": "25% OFF"
             }
         ],
         "secondaryFields": [
